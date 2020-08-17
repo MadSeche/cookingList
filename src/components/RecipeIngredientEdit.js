@@ -14,12 +14,14 @@ function RecipeIngredientEdit({
         type="text"
         value={ingredient.name}
         onChange={(e) => handleChange({ name: e.target.value })}
+        placeholder="ingredient name"
         className="recipe-edit__input"
       />
       <input
         type="text"
         value={ingredient.amount}
         onChange={(e) => handleChange({ amount: e.target.value })}
+        placeholder="ingredient quantity"
         className="recipe-edit__input"
       />
       <button

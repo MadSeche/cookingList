@@ -53,6 +53,7 @@ function RecipeEdit({ recipe }) {
           id="name"
           value={recipe.name}
           onChange={(e) => handleChange({ name: e.target.value })}
+          placeholder="Dishes name"
           className="recipe-edit__input"
         />
         <label htmlFor="cookTime" className="recipe-edit__label">
@@ -64,6 +65,7 @@ function RecipeEdit({ recipe }) {
           id="cookTime"
           value={recipe.cookTime}
           onChange={(e) => handleChange({ cookTime: e.target.value })}
+          placeholder="1:45"
           className="recipe-edit__input"
         />
         <label htmlFor="servings" className="recipe-edit__label">
@@ -78,6 +80,7 @@ function RecipeEdit({ recipe }) {
           onChange={(e) =>
             handleChange({ serving: parseInt(e.target.value) || "" })
           }
+          placeholder="number of persons"
           className="recipe-edit__input"
         />
         <label htmlFor="instructions" className="recipe-edit__label">
@@ -88,6 +91,7 @@ function RecipeEdit({ recipe }) {
           id="instructions"
           onChange={(e) => handleChange({ instructions: e.target.value })}
           value={recipe.instructions}
+          placeholder="your preparation ..."
           className="recipe-edit__input"
         >
           {recipe.instructions}
