@@ -94,6 +94,10 @@ function App() {
   /* --------------------------------- RETURN --------------------------------- */
   return (
     <div className="App">
+      <header>
+        <h1>Cooking List</h1>
+      </header>
+
       <RecipeContext.Provider value={recipeContextValue}>
         <RecipeList recipes={recipes} />
         {selectedRecipe && <RecipeEdit recipe={selectedRecipe} />}

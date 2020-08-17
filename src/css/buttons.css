@@ -3,21 +3,23 @@
   border: none;
   outline: none;
   font-weight: bold;
+
   border-radius: 5px;
   padding: 5px 20px;
   cursor: pointer;
 }
 .btn--primary {
-  color: white;
-  background-color: #b2ebf2;
+  color: #b2ebf2;
+  background-color: white;
+  /* background-color: #b2ebf2; */
 }
 .btn--primary:hover {
   color: #00bcd4;
   background-color: #b2ebf2;
 }
 .btn--danger {
-  color: white;
-  background-color: #ff5722;
+  color: #ff5722;
+  background-color: white;
 }
 .btn--danger:hover {
   color: #dd2c00;

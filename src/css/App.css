@@ -30,3 +30,16 @@ html {
 .mr-1 {
   margin-right: 5px;
 }
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ff5722;
+  text-align: start;
+  color: #ff5722;
+}
+
+h1 {
+  font-style: italic;
+  margin: 0;
+  margin-left: 1em;
+}
