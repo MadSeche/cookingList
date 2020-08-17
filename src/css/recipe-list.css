@@ -1,11 +1,17 @@
 .recipe-list {
   border-right: 1px solid #ff5722;
   min-height: 100vh;
-  max-width: 50vw;
+  max-width: 100vw;
 }
 
 .recipe-list__add-recipe-btn-container {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media (min-width: 1000px) {
+  .recipe-list {
+    max-width: 50vw;
+  }
 }
