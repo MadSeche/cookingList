@@ -9,19 +9,19 @@
   cursor: pointer;
 }
 .btn--primary {
-  color: #b2ebf2;
-  background-color: white;
+  color: #f4f4f4;
+  background-color: #f0a500;
   /* background-color: #b2ebf2; */
 }
 .btn--primary:hover {
-  color: #00bcd4;
-  background-color: #b2ebf2;
+  color: #f4f4f4;
+  background-color: #000000;
 }
 .btn--danger {
-  color: #ff5722;
-  background-color: white;
+  color: #cf7500;
+  background-color: #f0a500;
 }
 .btn--danger:hover {
-  color: #dd2c00;
-  background-color: #ff5722;
+  color: #cf7500;
+  background-color: #000000;
 }

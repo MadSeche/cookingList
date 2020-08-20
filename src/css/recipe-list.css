@@ -1,5 +1,6 @@
 .recipe-list {
-  border-right: 1px solid #ff5722;
+  background-color: #f0a500;
+  color: #f4f4f4;
   min-height: 100vh;
   max-width: 100vw;
 }
@@ -8,6 +9,9 @@
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.recipe__title {
+  color: #cf7500;
 }
 
 @media (min-width: 1000px) {

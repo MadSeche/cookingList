@@ -5,12 +5,7 @@
 @import "./buttons.css";
 @import "./ingredient-list.css";
 @import "./recipe-edit.css";
-/* Color : 
-    00bcd4
-    b2ebf2
-    ff5722
-    dd2c00
-*/
+
 html {
   box-sizing: border-box;
   font-size: 1.2em;
@@ -33,13 +28,19 @@ html {
 header {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #ff5722;
-  text-align: start;
-  color: #ff5722;
+  text-align: center;
+  background-color: #f0a500;
+  border-bottom: 1px solid #cf7500;
+  color: #f4f7c5;
 }
 
 h1 {
-  font-style: italic;
+  /* font-style: italic; */
   margin: 0;
-  margin-left: 1em;
+}
+
+@media (min-width: 1000px) {
+  header {
+    max-width: 50%;
+  }
 }
