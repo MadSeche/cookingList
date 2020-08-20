@@ -1,6 +1,6 @@
 .recipe-list {
-  background-color: #f0a500;
-  color: #f4f4f4;
+  background-color: #f4f4f4;
+  color: #cf7500;
   min-height: 100vh;
   max-width: 100vw;
 }
@@ -11,7 +11,10 @@
   padding-bottom: 30px;
 }
 .recipe__title {
-  color: #cf7500;
+  color: #f0a500;
+}
+.recipe__value {
+  color: #000000;
 }
 
 @media (min-width: 1000px) {

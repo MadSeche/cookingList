@@ -1,7 +1,7 @@
 .recipe {
   padding: 0.9rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #cf7500;
+  border-bottom: 1px solid #000000;
 }
 
 .recipe:last-child {
@@ -16,6 +16,7 @@
 }
 .recipe__title {
   font-size: 1.75rem;
+  font-weight: 900;
 }
 
 .recipe__row {
@@ -26,7 +27,6 @@
 }
 
 .recipe__value {
-  font-weight: 100;
   font-style: italic;
 }
 

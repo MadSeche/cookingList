@@ -9,17 +9,17 @@
   cursor: pointer;
 }
 .btn--primary {
-  color: #f4f4f4;
-  background-color: #f0a500;
+  color: #f0a500;
+  background-color: #f4f4f4;
   /* background-color: #b2ebf2; */
 }
 .btn--primary:hover {
-  color: #f4f4f4;
+  color: #f0a500;
   background-color: #000000;
 }
 .btn--danger {
   color: #cf7500;
-  background-color: #f0a500;
+  background-color: #f4f4f4;
 }
 .btn--danger:hover {
   color: #cf7500;

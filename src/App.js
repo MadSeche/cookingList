@@ -95,7 +95,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Cooking List</h1>
+        <h1>Time to Cook !</h1>
       </header>
 
       <RecipeContext.Provider value={recipeContextValue}>

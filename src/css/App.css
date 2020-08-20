@@ -30,12 +30,13 @@ header {
   padding-bottom: 1rem;
   text-align: center;
   background-color: #f0a500;
-  border-bottom: 1px solid #cf7500;
+  border-bottom: 1px solid #000000;
   color: #f4f7c5;
 }
 
 h1 {
-  /* font-style: italic; */
+  font-size: 3rem;
+  font-weight: 900;
   margin: 0;
 }
 

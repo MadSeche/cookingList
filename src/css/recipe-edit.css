@@ -7,7 +7,7 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: white;
+  background-color: #f4f4f4;
 }
 .recipe-edit__remove-button-container {
   text-align: end;
@@ -28,14 +28,16 @@
 
 .recipe-edit__label {
   font-weight: bold;
+  color: #cf7500;
 }
 .recipe-edit__input {
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 5px;
   font-size: inherit;
   padding: 5px 10px;
   outline: none;
   width: 100%;
+  color: #000000;
 }
 textarea.recipe-edit__input {
   resize: none;
