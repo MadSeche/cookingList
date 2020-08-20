@@ -1,5 +1,6 @@
 This is a simple App made in React where you can edit and create and list of recipes.
 Recipes are preserved in your web local storage.
+https://practical-feynman-3ca6a8.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
